@@ -1,0 +1,274 @@
+Package: alsa-lib
+Version: 1.0.28-1
+Depends: libc, kmod-sound-core, libpthread, librt
+Source: feeds/packages/libs/alsa-lib
+License: LGPLv2.1 GPLv2
+LicenseFiles: COPYING aserver/COPYING
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ramips_24kec
+Installed-Size: 287988
+Filename: alsa-lib_1.0.28-1_ramips_24kec.ipk
+Size: 285980
+MD5Sum: c5c506a090106c001bf99317e83643d5
+SHA256sum: 0ab76e705395af63bd37d76bce3f8476fcba3281143632ff87fb2aef8616532f
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.
+
+Package: avahi-dbus-daemon
+Version: 0.6.31-12
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Source: feeds/packages/libs/avahi
+Section: net
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 34940
+Filename: avahi-dbus-daemon_0.6.31-12_ramips_24kec.ipk
+Size: 35984
+MD5Sum: b7b51f19a6716bae7020e940f06356b9
+SHA256sum: f0163570d8d2d06519aac6ffa0acf89738ee07779a93defdff2f1bf9afe0933c
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: cgi-io
+Version: 1
+Depends: libc, libubox, libubus
+Source: feeds/packages/net/cgi-io
+License: GPL-2.0+
+Section: net
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 6117
+Filename: cgi-io_1_ramips_24kec.ipk
+Size: 6865
+MD5Sum: a535a4e37b4ef7e1ea77016e16ea0190
+SHA256sum: b8ec6273011fbabb7ef6a89161a4517c97d028268a6d989821f1acf5fa753764
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: dbus
+Version: 1.9.14-1
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 93163
+Filename: dbus_1.9.14-1_ramips_24kec.ipk
+Size: 93704
+MD5Sum: 6bcdf67497df0edc4bd90e265bd91320
+SHA256sum: cdac24cbbf722f3bb07fc76459c4ce92ce1ec692f1c1dfcab8e7baf4388b2f02
+Description:  Simple interprocess messaging system (daemon)
+
+Package: kmod-fs-exfat
+Version: 3.18.29+git-20150301-1
+Depends: kernel (=3.18.29-1-b86e2d2e96bd3ebec57cacb4a158c085), kmod-nls-base
+Source: feeds/packages/kernel/exfat-nofuse
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: kernel
+Maintainer: Bruno Randolf <br1@einfach.org>
+Architecture: ramips_24kec
+Installed-Size: 45603
+Filename: kmod-fs-exfat_3.18.29+git-20150301-1_ramips_24kec.ipk
+Size: 46379
+MD5Sum: 7d9988ea5cc37d0ef36c21b80db65963
+SHA256sum: f1bfcbc128eb588a64a29305382158ea851564ee1585ed4b8bdb8e0d6302f4e7
+Description:  Kernel module for ExFAT Filesytems
+
+Package: libavahi-client
+Version: 0.6.31-12
+Depends: libc, avahi-dbus-daemon
+Source: feeds/packages/libs/avahi
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 16560
+Filename: libavahi-client_0.6.31-12_ramips_24kec.ipk
+Size: 17624
+MD5Sum: 8cebb48811e1bb14d3536380bf94c85a
+SHA256sum: 938f4ecee4edc4f3258e282120b3eaf87ac67a28412319c4488c2a3fef8cd018
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.6.31-12
+Depends: libc, dbus
+Provides: libavahi
+Source: feeds/packages/libs/avahi
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 67192
+Filename: libavahi-dbus-support_0.6.31-12_ramips_24kec.ipk
+Size: 68534
+MD5Sum: 03a3d4ef3ad81b527847ade86c17a901
+SHA256sum: 3a342038394b8ccd05b28e236dd75d2547b9bdec65bce77ff129a08c0d8f57b9
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
+
+Package: libdaemon
+Version: 0.14-5
+Depends: libc
+Source: feeds/packages/libs/libdaemon
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 8258
+Filename: libdaemon_0.14-5_ramips_24kec.ipk
+Size: 9291
+MD5Sum: 972fe8fc9b5cc3fdc3240fc847f252d9
+SHA256sum: a12a8b84f9aefb7a2a5fddde5167f124ca3cee6da97784fdb3d4917d1b72d01a
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdbus
+Version: 1.9.14-1
+Depends: libc, libpthread
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 102782
+Filename: libdbus_1.9.14-1_ramips_24kec.ipk
+Size: 103596
+MD5Sum: 13f5436fe7cff2cc8b4913aa09966cce
+SHA256sum: 471b8a6be49a96ee3fdb1a7c915e3b1de74ecdc3b63efe0a72eeebb3c164c2d7
+Description:  Simple interprocess messaging system (library)
+
+Package: libexpat
+Version: 2.1.0-3
+Depends: libc
+Source: feeds/packages/libs/expat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 52598
+Filename: libexpat_2.1.0-3_ramips_24kec.ipk
+Size: 53282
+MD5Sum: 2b5ef5a0d06b6fbe7df20120acff10c8
+SHA256sum: 7a5fefde1e4d1d9808172de549154f5b240b6702cc2abd6ac292e9af6fd1e58e
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libid3tag
+Version: 0.15.1b-4
+Depends: libc, zlib
+Source: feeds/packages/libs/libid3tag
+License: GPL-2
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 24155
+Filename: libid3tag_0.15.1b-4_ramips_24kec.ipk
+Size: 24795
+MD5Sum: 63bce602969b6fe906b697025ccaacf1
+SHA256sum: bf92a12decc7252390de75c73605ae0471e870b49600d0ff654c7ae4d2fbf8da
+Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
+ ID3v1 and the various versions of ID3v2.
+
+Package: libjpeg
+Version: 9a-1
+Depends: libc
+Source: feeds/packages/libs/libjpeg
+License: IJG
+LicenseFiles: README
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 98792
+Filename: libjpeg_9a-1_ramips_24kec.ipk
+Size: 99495
+MD5Sum: 508451e4a2fc189ac772d96483271839
+SHA256sum: 75cda26daafbbe73cecd276e98b1549f2da01dff573a3a9eb453bc4d5cbf044e
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libmad
+Version: 0.15.1b-3
+Depends: libc
+Source: feeds/packages/libs/libmad
+License: GPLv2
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 60516
+Filename: libmad_0.15.1b-3_ramips_24kec.ipk
+Size: 61506
+MD5Sum: a5fe7ce76f5e3a75e1b023750b1d92ba
+SHA256sum: ff572697f30a0d08d32d0a9d82db8480a0bdaa54d1488808e2ea7bf905d54702
+Description:  MAD is a high-quality MPEG audio decoder. It currently supports
+ MPEG-1 and the MPEG-2 extension to lower sampling frequencies,
+ as well as the de facto MPEG 2.5 format. All three audio layers -
+ Layer I, Layer II, and Layer III (i.e. MP3) - are fully implemented.
+
+Package: spi-tools
+Version: 1-cc6a41fdcec60610703ba6db488c621c64952898
+Depends: libc
+Source: feeds/packages/utils/spi-tools
+License: GPL-2.0
+Section: utils
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 4507
+Filename: spi-tools_1-cc6a41fdcec60610703ba6db488c621c64952898_ramips_24kec.ipk
+Size: 5228
+MD5Sum: 122a767775ce2df885a7551688dfe489
+SHA256sum: 61bbb16a042abeb54965a3c5d73eb5d4cb5ff256632bd876d146b9519fa49395
+Description:  Command line SPI tools
+

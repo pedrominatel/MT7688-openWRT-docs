@@ -1,5 +1,6 @@
-97342f26d337c7f22ef9a8ed33ca175c *openwrt-ramips-mt7688-Widora-squashfs-sysupgrade.bin
-740fcda5be2bfdba0ab82860552b7efd *openwrt-ramips-mt7688-root.squashfs
-af1332c4535112be53c1d7fb4c794b63 *openwrt-ramips-mt7688-uImage.bin
-80a235b20a5779e9e21bb0aaf0b48761 *openwrt-ramips-mt7688-vmlinux.bin
-71d1d77432655c75eab08993e0bd8bfa *openwrt-ramips-mt7688-vmlinux.elf
+280e941517afd0bbd867d23d68804e8a *openwrt-ramips-mt7688-Widora-squashfs-sysupgrade.bin
+bcee8e3ed3ccae6ddc75369c1709f850 *openwrt-ramips-mt7688-root.squashfs
+ec50e1383bfbb374f58469285cb1751b *openwrt-ramips-mt7688-uImage.bin
+af1fc37b130613ada1df44450833e365 *openwrt-ramips-mt7688-vmlinux.bin
+e7f9de649e9034622158b7a2c7770780 *openwrt-ramips-mt7688-vmlinux.elf
+002000f1072d92bd2e77defc53abbb1a *sha256sums
