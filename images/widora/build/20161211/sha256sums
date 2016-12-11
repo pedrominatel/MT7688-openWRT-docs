@@ -1,0 +1,6 @@
+SHA256(openwrt-ramips-mt7688-Widora-squashfs-sysupgrade.bin)= ae6aa3f446b281c25decf31ffdd168b4458e96347084c0e5f07d3e971cceb480
+SHA256(openwrt-ramips-mt7688-root.squashfs)= 0ef09be0359f396bbca72f002983ae2fa4565c8b3ec4eb5cb9ac45da5a869f5e
+SHA256(openwrt-ramips-mt7688-uImage.bin)= d0e8e52067c92e1c8935c498679d6af15f10929ef407cf5bc83e56ca914b8aca
+SHA256(openwrt-ramips-mt7688-vmlinux.bin)= c6840520c4bf57c4b8b25026ec90d556296d54830573b753f08972d1fe3c046a
+SHA256(openwrt-ramips-mt7688-vmlinux.elf)= 0b1546e80b18fe5c8233b1e254dd978dec1584be234f1144c7b0e51c6310575b
+SHA256(sha256sums)= e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
