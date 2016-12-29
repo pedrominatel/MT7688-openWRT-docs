@@ -1,6 +1,8 @@
 
 # Using Ethernet interface with DHCP
 
+*File: /etc/config/network
+
 	config interface 'loopback'
 		option ifname 'lo'
 		option proto 'static'
